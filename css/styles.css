@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  padding: 15px;
+  font-size: 3rem;
+}
+
+.container {
+  height: 500px;
+  width: 75%;
+  border: 3px solid black;
+  margin: 20px auto;
+}
+
+.container div {
+  height: 100px;
+  width: 100px;
+  background-color: #212121;
+  color: white;
+}
+
+.one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.one .div1 {
+  position: absolute;
+  left: 0;
+}
+
+.one .div2 {
+  position: absolute;
+  right: 110px;
+}
+
+.two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.two .div5 {
+  position: relative;
+  top: 100px;
+}
+
+.two .div6 {
+  position: relative;
+  top: 200px;
+}
+
+.three .div7 {
+  height: 200px;
+  width: 200px;
+  background-color: cadetblue;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+
+.three .div8 {
+  position: relative;
+  left: 45%;
+  bottom: 100px;
+}
+
+.four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.four .div11 {
+  background-color: #4f4f4f;
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+
+.five {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.five .div14 {
+  position: relative;
+  top: 100px;
+}
+
+.five .div15 {
+  position: relative;
+  top: 200px;
+}
+
+.six {
+  position: relative;
+}
+
+.six .div16 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 75%;
+  height: 250px;
+  background-color: gray;
+}
+
+.six .div17 {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+.six .div18 {
+  position: absolute;
+  bottom: 30%;
+  right: 0;
+}
+
+.seven {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.seven .div19 {
+  height: 200px;
+  width: 200px;
+  background-color: #666666;
+}
+
+.seven .div20 {
+  position: relative;
+  right: 100px;
+  top: 100px;
+}
+
+.eight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.eight .div22 {
+  height: 200px;
+  width: 200px;
+  background-color: #666666;
+}
+
+.eight .div23 {
+  position: relative;
+  right: 100px;
+  top: 0px;
+}
+
+.nine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nine .div25 {
+  height: 80%;
+  width: 200px;
+  background-color: #666666;
+}
+
+.nine .div26 {
+  position: absolute;
+  left: 200px;
+}
+
+.nine .div27 {
+  position: relative;
+  right: 150px;
+  top: 59%;
+}
+
+.ten {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.ten .div28 {
+  width: 60%;
+  height: 200px;
+  background-color: #666666;
+  position: relative;
+  left: 20%;
+  top: 20%;
+}
+
+.ten .div29 {
+  position: relative;
+  right: 35%;
+  top: 150px;
+}
+
+.ten .div30 {
+  position: relative;
+  right: 6%;
+  top: 150px;
+}
+
+.eleven .div31 {
+  background-color: #666666;
+  height: 80%;
+  width: 200px;
+}
+
+.eleven .div32 {
+  position: relative;
+  bottom: 200px;
+  height: 200px;
+  width: 150px;
+  left: 50px;
+}
+
+.eleven .div33 {
+  background-color: #d53131;
+  position: relative;
+  bottom: 305px;
+  left: 90px;
+}
+
+.tweleve .div34 {
+  background-color: #666666;
+  height: 80%;
+  width: 200px;
+}
+
+.tweleve .div35 {
+  position: relative;
+  bottom: 200px;
+  height: 200px;
+  width: 150px;
+  left: 125px;
+}
+
+.tweleve .div36 {
+  background-color: #d53131;
+  position: relative;
+  bottom: 250px;
+  left: 100px;
+}
+/*# sourceMappingURL=styles.css.map */
